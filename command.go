@@ -55,7 +55,10 @@ func (cf *CmdFlags) Execute(todos *Todos) {
 
 		todos.edit(index, parts[1])
 
-	case cf.Toggle != 1:
+	case cf.Toggle != -1:
+		todos.toggle(cf.Toggle)
+
+	case cf.Del != -1:
 		todos.delete(cf.Del)
 
 	default:

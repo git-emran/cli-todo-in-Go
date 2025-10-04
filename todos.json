@@ -1,9 +1,9 @@
 [
 {
 "Title": "Buy milk",
-"Completed": false,
+"Completed": true,
 "CreatedAt": "2025-10-04T10:35:52.379767+06:00",
-"CompletedAt": "2025-10-04T10:35:52.379768+06:00"
+"CompletedAt": "2025-10-04T12:51:38.006518+06:00"
 },
 {
 "Title": "Buy bread",
@@ -16,5 +16,11 @@
 "Completed": false,
 "CreatedAt": "2025-10-04T12:28:31.139758+06:00",
 "CompletedAt": null
+},
+{
+"Title": "Buy a cord extension",
+"Completed": true,
+"CreatedAt": "2025-10-04T12:33:44.238934+06:00",
+"CompletedAt": "2025-10-04T12:52:06.24075+06:00"
 }
 ]
